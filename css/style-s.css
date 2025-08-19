@@ -1,0 +1,99 @@
+#top_page {
+    width: 100%;
+
+    background-color: #131921;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+#nav_global_location {
+    margin: 0px;
+    padding: 0px;
+
+    display: grid;
+    grid-template-areas:
+        'a text_a text_a'
+        'a text_b text_b'
+    ;
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90;
+    height: 50px;
+}
+
+#img_ {
+    grid-area: a;
+    margin: 0px;
+    padding: 0px;
+    width: 15px;
+    height: 18px;
+}
+
+#span_a_ {
+    /* display: flex;
+    flex-wrap: wrap; */
+    grid-area: text_a;
+    margin: 0px;
+    padding: 0px;
+    width: 15px;
+    height: 15px;
+}
+
+#span_b_ {
+    /* display: flex;
+    flex-wrap: wrap; */
+    grid-area: text_b;
+    margin: 0px;
+    padding: 0px;
+    width: 52.59px;
+    height: 15.99px;
+}
+
+
+
+
+/* לסדר */
+/* תיבת חיפוש */
+#search_div {
+    width: 443.47px;
+    height: 60px;
+
+    color: #0f1111;
+
+    display: grid;
+    grid-template-areas: 
+    'a b c'
+    ;
+}
+#search_window{
+    grid-area: a;
+
+    width: 40px;
+    height: 51.8px;
+}
+#nav_search_field{
+    grid-area: b;
+}
+
+#btn_search_div{
+    grid-area: c;
+}
+#btn_search {
+    width: 45px;
+    height: 40px;
+}
+
+#search_img {
+    width: 40px;
+    height: 35px;
+    background-color: #febd69;
+
+}
+
+/* mobile status */
+@media screen and (max-width: 600px) {}
