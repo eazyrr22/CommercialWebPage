@@ -1,1 +1,35 @@
-nav
+body {
+  height: 100vh;
+  width: 100vw;
+}
+#topnav {
+  height: 39px;
+  width: 100%;
+  line-height: 1em;
+  background-color: #232f3e;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  height: 100%;
+  width: auto;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  padding-inline-start: 40px;
+}
+li {
+  align-content: center;
+  height: 100%;
+  width: auto;
+}
+li:hover {
+  border: 1px solid white;
+}
+a {
+  text-align: center;
+  text-decoration: none;
+  height: 100%;
+  margin: 0 0.5em;
+  color: #fff;
+}
